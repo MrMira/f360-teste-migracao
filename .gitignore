@@ -1,0 +1,12 @@
+# Excluir a pasta 'vendor' do Composer
+vendor
+
+
+# Exclui os arquivos baixados e extraídos
+pipeline/download/*
+pipeline/extract/*
+
+
+# Contudo mantém o arquivo que irá manter
+# a estrutura do diretório de pipeline.
+!.gitkeep

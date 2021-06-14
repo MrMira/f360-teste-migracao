@@ -1,0 +1,21 @@
+{
+    "name": "mira/f360-teste-migracao",
+    "authors": [
+        {
+            "name": "Miguel Mira",
+            "email": "miguel.mrmira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "F360\\": "source/"
+        }
+    },
+    "require": {
+        "slim/slim": "4.0",
+        "symfony/routing": "^5.3",
+        "slim/psr7": "^1.4",
+        "mongodb/mongodb": "^1.8",
+        "laravel/lumen-framework": "^8.2"
+    }
+}
