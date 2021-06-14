@@ -71,6 +71,10 @@ registros.
 Para fazer a inserção dos dados, basta rodar o comando:<br>
 `php source/Migracao/EntityDatabase`
 
+É necessário que o arquivo `DADOS_ABERTOS_CNPJ_01.zip` esteja extraído
+na pasta `pipeline\extract`, com o nome `K3241.K032001K.CNPJ.D01120.L00001`.
+Para fazer isso, basta seguir o passo 2 desse guia.
+
 Como o arquivo é grande, pode demorar muito tempo para inserir os dados,
 então para facilitar a inserção existem duas variáveis: a primeira controla
 a quantidade de registros a serem inseridos por vez, que é `$block_size`,
